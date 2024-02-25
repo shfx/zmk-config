@@ -8,3 +8,5 @@ draw_config:
     text.combo, text.hold, text.shifted {
       font-size: 10px;
     }
+parse_config:
+  raw_binding_map: { "BACKSPACE": "$$tabler:backspace$$" }
