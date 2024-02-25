@@ -1,0 +1,17 @@
+name: Draw ZMK keymaps
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write # allow workflow to commit to the repo
+    with:
+      # Use the triggering commit's message, prepending the "[Draw]" tag
+      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      keymap_patterns: "config/*.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      parse_args: ""
+      draw_args: ""
