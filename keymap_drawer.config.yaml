@@ -1,6 +1,4 @@
 draw_config:
-  n_columns: 2
-  line_spacing: 1
   svg_extra_style: >
     svg.keymap {
       font-size: 12px;
@@ -9,4 +7,4 @@ draw_config:
       font-size: 10px;
     }
 parse_config:
-  raw_binding_map: { "BACKSPACE": "$$tabler:backspace$$" }
+  raw_binding_map: { "&kp BACKSPACE": "$$tabler:backspace$$" }
