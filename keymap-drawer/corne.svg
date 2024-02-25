@@ -1,4 +1,16 @@
-<svg width="1800" height="717" viewBox="0 0 1800 717" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900" height="1048" viewBox="0 0 900 1048" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="tabler:backspace">
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+  <path d="M12 10l4 4m0 -4l-4 4" />
+</svg>
+
+
+
+</svg>
+</defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
 svg path {
     fill: inherit;
@@ -262,7 +274,7 @@ svg.keymap {
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<use href="#tabler:backspace" xlink:href="#tabler:backspace" x="-7" y="-7" height="14" width="14.0" class="key tap glyph tabler:backspace"/>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -281,7 +293,7 @@ svg.keymap {
 </g>
 </g>
 </g>
-<g transform="translate(930, 0)" class="layer-lower">
+<g transform="translate(30, 331)" class="layer-lower">
 <text x="0" y="28" class="label">lower:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
@@ -408,7 +420,7 @@ svg.keymap {
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em">BT</tspan><tspan x="0" dy="1.0em">CLR</tspan>
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
 </text>
 </g>
 <g transform="translate(532, 154)" class="key trans keypos-30">
@@ -461,7 +473,7 @@ svg.keymap {
 </g>
 </g>
 </g>
-<g transform="translate(30, 331)" class="layer-raise">
+<g transform="translate(30, 661)" class="layer-raise">
 <text x="0" y="28" class="label">raise:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
@@ -499,7 +511,7 @@ svg.keymap {
 <g transform="translate(644, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.5em" style="font-size: 88%">KP</tspan><tspan x="0" dy="1.0em" style="font-size: 88%">MULTIPLY</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 88%">KP</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">MULTIPLY</tspan>
 </text>
 </g>
 <g transform="translate(700, 35)" class="key keypos-9">
