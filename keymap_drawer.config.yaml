@@ -1,0 +1,10 @@
+draw_config:
+  n_columns: 2
+  line_spacing: 1
+  svg_extra_style: >
+    svg.keymap {
+      font-size: 12px;
+    }
+    text.combo, text.hold, text.shifted {
+      font-size: 10px;
+    }
