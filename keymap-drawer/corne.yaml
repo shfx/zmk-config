@@ -38,7 +38,7 @@ layers:
   - /
   - ''
   - ESC
-  - BACKSPACE
+  - $$tabler:backspace$$
   - SPACE
   - RET
   - raise
