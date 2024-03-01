@@ -1,7 +1,13 @@
 name: Draw ZMK keymaps
 
-on: [push, pull_request, workflow_dispatch]
-
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.dtsi"
+      - keymap-drawer/config.yaml
+      - .github/workflows/draw-keymaps.yml
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
@@ -11,7 +17,7 @@ jobs:
       # Use the triggering commit's message, prepending the "[Draw]" tag
       commit_message: "[Draw] ${{ github.event.head_commit.message }}"
       keymap_patterns: "config/*.keymap"
-      config_path: "keymap_drawer.config.yaml"
+      config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: ""
+      draw_args: "--qmk-keyboard LAYOUT_split_3x5_3"
