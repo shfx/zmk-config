@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - {t: A, h: LEFT WIN}
   - {t: S, h: LEFT ALT}
