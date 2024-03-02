@@ -20,4 +20,4 @@ jobs:
       config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: "corne:'--ghost-keys 20 24 25 29 30 35'"
+      draw_args: ""
