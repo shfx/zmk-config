@@ -9,46 +9,79 @@ draw_config:
 
 parse_config:
   raw_binding_map:
-    "&kp BACKSPACE": "$$tabler:backspace$$"
-    '&sys_reset': Reset
-    '&bootloader': Boot
-    '&swapper': Win Next
-    '&caps_word': Caps Wrd
-    '&inv_qm': ¿
+  raw_binding_map:
+    '&ext_power EP_TOG': "🔌"
+    "&caps_word": $$mdi:alpha-w-box$$
+    '&bootloader': "💾"
+    '&sys_reset': "🔄"
+    '&reset_td': "🔄"
+    '&dot_space_shift': ".⎵⇧"
 
-    '&kp LC(LG(LEFT))': Desk Left
-    '&kp LC(LG(RIGHT))': Desk Right
-    '&kp LC(TAB)': Tab Right
-    '&kp LC(LS(TAB))': Tab Left
-    '&kp LA(F4)': Win Close
-    '&kp LC(F4)': Tab Close
-    '&kp LS(TAB)': Win Prev
-    '&kp LS(INS)': Paste
+    "&ltsk MEDIA LSHIFT":
+      tap: SK(⇧)
+      hold: MEDIA
+    "&ltr NUM 0":
+      tap: $$mdi:repeat-variant$$
+      hold: $$mdi:numeric$$
 
-    '&out OUT_USB': Out USB
-    '&out OUT_BLE': Out BLE
+    "&ltsk NUM BSPC":
+      tap: $$mdi:backspace-outline$$
+      hold: $$mdi:numeric$$
 
-    '&bt BT_SEL 0': BT 1
-    '&bt BT_SEL 1': BT 2
-    '&bt BT_SEL 2': BT 3
-    '&bt BT_SEL 3': BT 4
-    '&bt BT_SEL 4': BT 5
+    "&lt MOUSE ESC":
+      tap: $$mdi:keyboard-esc$$
+      hold: $$mdi:mouse$$
 
-    '&mmv MOVE_UP': M↑
-    '&mmv MOVE_DOWN': M↓
-    '&mmv MOVE_LEFT': M←
-    '&mmv MOVE_RIGHT': M→
+    "&lt NAV SPACE":
+      tap: $$mdi:keyboard-space$$
+      hold: $$mdi:navigation-variant-outline$$
 
-    '&msc SCRL_UP': MW↑
-    '&msc SCRL_DOWN': MW↓
-    '&msc SCRL_LEFT': MW←
-    '&msc SCRL_RIGHT': MW→
+    "&lt FUN RET":
+      tap: $$mdi:keyboard-return$$
+      hold: $$mdi:function-variant$$
 
-    '&mkp LCLK': Left Click
-    '&mkp RCLK': Right Click
-    '&mkp MCLK': Middle Click
-    '&mkp MB4': Back Click
-    '&mkp MB5': Forward Click
+    # Bluetooth
+    "&bt BT_SEL 0":
+      tap: $$mdi:bluetooth-connect$$
+      hold: 0
+    "&bt BT_SEL 1":
+      tap: $$mdi:bluetooth-connect$$
+      hold: 1
+    "&bt BT_SEL 2":
+      tap: $$mdi:bluetooth-connect$$
+      hold: 2
+    "&bt BT_SEL 3":
+      tap: $$mdi:bluetooth-connect$$
+      hold: 3
+    "&bt BT_SEL 4":
+      tap: $$mdi:bluetooth-connect$$
+      hold: 4
+    '&bt BT_NXT':
+      tap: $$mdi:bluetooth-connect$$
+      hold: $$mdi:chevron-right$$
+    '&bt BT_PRV':
+      shifted: $$mdi:bluetooth-connect$$
+      tap: ""
+      hold: $$mdi:chevron-left$$
+    '&bt BT_CLR':
+      tap: $$mdi:bluetooth-connect$$
+      hold: $$mdi:close-box-outline$$
+
+    # Empty
+    "&none":
+      tap: $$mdi:minus-circle-outline$$
+      type: none
+
+    "&out OUT_TOG":
+      shifted: $$mdi:usb$$
+      tap: $$mdi:toggle-switch$$
+      hold: $$mdi:bluetooth$$
+
+    "&thread_arrow":
+      tap: ->
+      shifted: =>
+    "&and":
+      tap: and
 
   zmk_keycode_map:
     # custom mappings

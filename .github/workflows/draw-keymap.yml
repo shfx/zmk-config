@@ -20,4 +20,4 @@ jobs:
       config_path: "keymap-drawer/config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: "--qmk-keyboard LAYOUT_split_3x5_3"
+      draw_args: ""
