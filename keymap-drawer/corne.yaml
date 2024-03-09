@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RIGHT CONTROL}
   - {t: K, h: RIGHT COMMAND}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RG(RIGHT SHIFT)}
+  - {t: ;, h: RIGHT SHIFT}
   - ''
   - ''
   - Z
