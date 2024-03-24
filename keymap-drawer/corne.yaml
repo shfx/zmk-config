@@ -35,7 +35,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - '?'
   - ''
   - ESC
   - BACKSPACE
@@ -45,40 +45,40 @@ layers:
   - ''
   lower:
   - ''
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - _
+  - KP EQUAL
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - ''
   - ''
+  - '~'
+  - '`'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
+  - KP MINUS
+  - KP PLUS
+  - ''''
+  - '"'
+  - KP DIVIDE
+  - \
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,3 +129,25 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+combos:
+- p: [13, 14]
+  k: (
+  l: [default]
+- p: [21, 22]
+  k: )
+- p: [21, 20]
+  k: ']'
+- p: [15, 14]
+  k: '['
+- p: [19, 20]
+  k: '}'
+- p: [15, 16]
+  k: '{'
+- p: [1, 2]
+  k: TAB
+- p: [10, 9]
+  k: _
+- p: [18, 19]
+  k: '>'
+- p: [17, 16]
+  k: <
