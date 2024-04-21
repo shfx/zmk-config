@@ -38,11 +38,11 @@ layers:
   - '?'
   - ''
   - ESC
-  - BACKSPACE
-  - SPACE
-  - RET
-  - raise
-  - ''
+  - TAB
+  - {t: SPACE, h: lower}
+  - {t: BACKSPACE, h: '2'}
+  - DELETE
+  - Sft+Ctl+Gui+ LEFT ALT
   lower:
   - ''
   - '!'
@@ -82,52 +82,52 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  raise:
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - ''
-  - ''
+  '2':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - ''
-  - ''
-  - '~'
-  - '`'
-  - TAB
-  - ''''
   - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - ''
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - STOP
+  - PREV
+  - NEXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [13, 14]
