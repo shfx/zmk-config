@@ -98,10 +98,10 @@
 
         default {
             bindings = <
-&none  &kp Q              &kp W            &kp E                &kp R                &kp T        &kp Y    &kp U                 &kp I                 &kp O             &kp P                       &none
-&none  &hrl LEFT_SHIFT A  &hrl LEFT_ALT S  &hrl LEFT_COMMAND D  &hrl LEFT_CONTROL F  &kp G        &kp H    &hmr RIGHT_CONTROL J  &hmr RIGHT_COMMAND K  &hmr RIGHT_ALT L  &hmr RIGHT_SHIFT SEMICOLON  &none
-&none  &kp Z              &kp X            &kp C                &kp V                &kp B        &kp N    &kp M                 &kp COMMA             &kp DOT           &kp QUESTION                &none
-                                           &kp ESC              &kp BACKSPACE        &kp SPACE    &kp RET  &mo 2                 &none
+&none  &kp Q              &kp W            &kp E                &kp R                &kp T          &kp Y            &kp U                 &kp I                     &kp O             &kp P                       &none
+&none  &hrl LEFT_SHIFT A  &hrl LEFT_ALT S  &hrl LEFT_COMMAND D  &hrl LEFT_CONTROL F  &kp G          &kp H            &hmr RIGHT_CONTROL J  &hmr RIGHT_COMMAND K      &hmr RIGHT_ALT L  &hmr RIGHT_SHIFT SEMICOLON  &none
+&none  &kp Z              &kp X            &kp C                &kp V                &kp B          &kp N            &kp M                 &kp COMMA                 &kp DOT           &kp QUESTION                &none
+                                           &kp ESC              &kp TAB              &lt 1 SPACE    &lt 2 BACKSPACE  &kp DELETE            &kp LS(LC(LG(LEFT_ALT)))
             >;
 
             label = "Default";
@@ -118,15 +118,13 @@
             label = "Lower";
         };
 
-        raise {
+        layer_2 {
             bindings = <
-&none  &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &none
-&none  &trans     &trans     &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &none
-&none  &kp TILDE  &kp GRAVE  &kp TAB   &kp SQT   &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &none
-                             &trans    &trans    &trans       &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_PLAY_PAUSE  &kp K_STOP  &kp K_PREV  &kp K_NEXT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT          &kp DOWN    &kp UP      &kp RIGHT   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans      &trans      &trans      &trans
+                        &trans  &trans  &trans    &trans  &trans            &trans
             >;
-
-            label = "Raise";
         };
     };
 };
