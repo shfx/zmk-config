@@ -14,16 +14,16 @@ layers:
   - P
   - ''
   - ''
-  - {t: A, h: LEFT SHIFT}
+  - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT COMMAND}
-  - {t: F, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: RIGHT CONTROL}
+  - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT COMMAND}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT SHIFT}
+  - {t: ;, h: RIGHT CONTROL}
   - ''
   - ''
   - Z
@@ -38,12 +38,12 @@ layers:
   - '?'
   - ''
   - ESC
-  - TAB
-  - {t: SPACE, h: lower}
-  - {t: BACKSPACE, h: '2'}
-  - DELETE
+  - {t: TAB, h: '1'}
+  - SPACE
+  - BACKSPACE
+  - {t: ENTER, h: '2'}
   - Sft+Ctl+Gui+ LEFT ALT
-  lower:
+  '1':
   - ''
   - '!'
   - '@'
@@ -81,16 +81,16 @@ layers:
   - \
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,28 +126,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-combos:
-- p: [13, 14]
-  k: (
-  l: [default]
-- p: [21, 22]
-  k: )
-- p: [21, 20]
-  k: ']'
-- p: [15, 14]
-  k: '['
-- p: [19, 20]
-  k: '}'
-- p: [15, 16]
-  k: '{'
-- p: [1, 2]
-  k: TAB
-- p: [10, 9]
-  k: _
-- p: [18, 19]
-  k: '>'
-- p: [17, 16]
-  k: <
