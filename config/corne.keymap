@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    chosen {
+        zmk,matrix-transform = &five_column_transform;
+    };
+
     behaviors {
         hrl: hrl {
             compatible = "zmk,behavior-hold-tap";
