@@ -1,7 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
 layers:
   default:
-  - ''
   - Q
   - W
   - E
@@ -12,8 +11,6 @@ layers:
   - I
   - O
   - P
-  - ''
-  - ''
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT COMMAND}
@@ -24,8 +21,6 @@ layers:
   - {t: K, h: RIGHT COMMAND}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT CONTROL}
-  - ''
-  - ''
   - Z
   - X
   - C
@@ -36,7 +31,6 @@ layers:
   - ','
   - .
   - '?'
-  - ''
   - ESC
   - {t: TAB, h: symbols}
   - SPACE
@@ -44,7 +38,6 @@ layers:
   - {t: ENTER, h: '2'}
   - Sft+Ctl+Gui+ LEFT ALT
   symbols:
-  - ''
   - '!'
   - '@'
   - '#'
@@ -55,8 +48,6 @@ layers:
   - '*'
   - _
   - KP EQUAL
-  - ''
-  - ''
   - KP 1
   - KP 2
   - KP 3
@@ -67,8 +58,6 @@ layers:
   - KP 8
   - KP 9
   - KP 0
-  - ''
-  - ''
   - '~'
   - '`'
   - {t: ▽, type: trans}
@@ -79,7 +68,6 @@ layers:
   - '"'
   - KP DIVIDE
   - \
-  - ''
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -87,7 +75,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
-  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -98,7 +85,6 @@ layers:
   - STOP
   - PREV
   - NEXT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,51 +109,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  '3':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
