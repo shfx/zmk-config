@@ -1,5 +1,5 @@
 draw_config:
-  dark_mode: auto
+  dark_mode: true
   svg_extra_style: >
     svg.keymap {
       font-size: 12px;
