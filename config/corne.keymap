@@ -55,7 +55,7 @@
             label = "Default";
         };
 
-        layer_1 {
+        symbols {
             bindings = <
 &none  &kp EXCLAMATION  &kp AT           &kp HASH         &kp DOLLAR       &kp PERCENT        &kp CARET        &kp AMPERSAND     &kp ASTERISK       &kp UNDER        &kp KP_EQUAL     &none
 &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7   &kp KP_NUMBER_8    &kp KP_NUMBER_9  &kp KP_NUMBER_0  &none
@@ -63,7 +63,7 @@
                                          &trans           &trans           &trans             &trans           &trans            &trans
             >;
 
-            label = "1";
+            label = "Symbols";
         };
 
         layer_2 {
@@ -75,6 +75,15 @@
             >;
 
             label = "2";
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
     };
 };
