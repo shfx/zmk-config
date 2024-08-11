@@ -48,16 +48,16 @@ layers:
   - '*'
   - _
   - KP EQUAL
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
+  - {t: KP 1, h: LEFT CONTROL}
+  - {t: KP 2, h: LEFT ALT}
+  - {t: KP 3, h: LEFT COMMAND}
+  - {t: KP 4, h: LEFT SHIFT}
   - KP 5
   - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - {t: KP 7, h: RIGHT SHIFT}
+  - {t: KP 8, h: RIGHT COMMAND}
+  - {t: KP 9, h: RIGHT ALT}
+  - {t: KP 0, h: RIGHT CONTROL}
   - '~'
   - '`'
   - {t: ▽, type: trans}
