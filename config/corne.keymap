@@ -57,9 +57,9 @@
 
         symbols {
             bindings = <
-&kp EXCLAMATION  &kp AT           &kp HASH          &kp DOLLAR         &kp PERCENT      &kp CARET          &kp AMPERSAND    &kp ASTERISK     &kp UNDER  &kp KP_EQUAL  &kp KP_NUMBER_1  &kp KP_NUMBER_2
-&kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6    &kp KP_NUMBER_7  &kp KP_NUMBER_8    &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp TILDE  &kp GRAVE     &trans           &kp PIPE
-&kp KP_MINUS     &kp KP_PLUS      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp KP_DIVIDE    &kp BACKSLASH      &trans           &trans           &trans     &trans        &trans           &trans
+&kp EXCLAMATION                &kp AT                       &kp HASH          &kp DOLLAR         &kp PERCENT                   &kp CARET                         &kp AMPERSAND               &kp ASTERISK                    &kp UNDER  &kp KP_EQUAL  &hrl LEFT_CONTROL KP_NUMBER_1  &hrl LEFT_ALT KP_NUMBER_2
+&hrl LEFT_COMMAND KP_NUMBER_3  &hrl LEFT_SHIFT KP_NUMBER_4  &kp KP_NUMBER_5   &kp KP_NUMBER_6    &hmr RIGHT_SHIFT KP_NUMBER_7  &hmr RIGHT_COMMAND KP_NUMBER_8    &hmr RIGHT_ALT KP_NUMBER_9  &hmr RIGHT_CONTROL KP_NUMBER_0  &kp TILDE  &kp GRAVE     &trans                         &kp PIPE
+&kp KP_MINUS                   &kp KP_PLUS                  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp KP_DIVIDE                 &kp BACKSLASH                     &trans                      &trans                          &trans     &trans        &trans                         &trans
             >;
 
             label = "Symbols";
