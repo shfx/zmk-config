@@ -10,7 +10,6 @@ draw_config:
 
 parse_config:
   raw_binding_map:
-  raw_binding_map:
     '&ext_power EP_TOG': "🔌"
     "&caps_word": $$mdi:alpha-w-box$$
     '&bootloader': "💾"
@@ -102,6 +101,7 @@ parse_config:
     ESC: Esc
     SPACE: ␣
     BSPC: ⌫
+    BACKSPACE: ⌫
     RET: ⏎
     TAB: ↹
     DEL: ⌦
