@@ -18,7 +18,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41 36 38 37>;
+            hold-trigger-key-positions = <6 7 8 9 18 19 33 34 35 39 40 41 36 38 37 5 15 25 26 16 17 27 28 29>;
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -30,7 +30,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HMR";
             #binding-cells = <2>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41>;
+            hold-trigger-key-positions = <0 1 2 3 4 12 13 14 24 36 37 38 39 40 41 10 11 21 20 23 22 31 30 32>;
             flavor = "balanced";
             tapping-term-ms = <280>;
             require-prior-idle-ms = <150>;
