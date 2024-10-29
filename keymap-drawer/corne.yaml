@@ -32,45 +32,119 @@ layers:
   - .
   - '?'
   - ESC
-  - {t: TAB, h: symbols}
   - SPACE
+  - {t: TAB, h: symbols}
+  - {t: ENTER, h: Numbers}
   - BACKSPACE
-  - {t: ENTER, h: default}
-  - Sft+Ctl+Gui+ LEFT ALT
+  - {t: DELETE, h: System}
   symbols:
   - '!'
   - '@'
   - '#'
   - $
-  - '%'
-  - ^
+  - (
+  - )
   - '&'
   - '*'
   - _
-  - KP EQUAL
-  - {t: KP 1, h: LEFT CONTROL}
-  - {t: KP 2, h: LEFT ALT}
-  - {t: KP 3, h: LEFT COMMAND}
-  - {t: KP 4, h: LEFT SHIFT}
-  - KP 5
-  - KP 6
-  - {t: KP 7, h: RIGHT SHIFT}
-  - {t: KP 8, h: RIGHT COMMAND}
-  - {t: KP 9, h: RIGHT ALT}
-  - {t: KP 0, h: RIGHT CONTROL}
-  - '~'
-  - '`'
+  - '='
+  - {t: '~', h: LEFT CONTROL}
+  - {t: '`', h: LEFT ALT}
+  - {t: '%', h: LEFT COMMAND}
+  - {t: ^, h: LEFT SHIFT}
+  - '{'
+  - '}'
+  - {t: +, h: RIGHT SHIFT}
+  - {t: '-', h: RIGHT COMMAND}
+  - {t: '''', h: RIGHT ALT}
+  - {t: '"', h: RIGHT CONTROL}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '|'
-  - KP MINUS
-  - KP PLUS
-  - ''''
-  - '"'
-  - KP DIVIDE
+  - '['
+  - ']'
+  - <
+  - '>'
+  - /
   - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  Numbers:
+  - F10
+  - F7
+  - F8
+  - F9
+  - F13
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: F11, h: LEFT SHIFT}
+  - {t: F4, h: LEFT ALT}
+  - {t: F5, h: LEFT COMMAND}
+  - {t: F6, h: LEFT COMMAND}
+  - F14
+  - +
+  - {t: '4', h: RIGHT COMMAND}
+  - {t: '5', h: RIGHT CONTROL}
+  - {t: '6', h: RIGHT ALT}
+  - {t: '*', h: RIGHT SHIFT}
+  - F12
+  - F1
+  - F2
+  - F3
+  - F15
+  - '-'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  System:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
