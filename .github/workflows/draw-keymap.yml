@@ -7,8 +7,8 @@ on:
       - "config/*.keymap"
       - "config/*.yml"
       - "config/*.dtsi"
-      - keymap-drawer/config.yaml
-      - .github/workflows/draw-keymaps.yml
+      - "config/config.yml"
+      - ".github/workflows/draw-keymaps.yml"
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
@@ -18,7 +18,7 @@ jobs:
       # Use the triggering commit's message, prepending the "[Draw]" tag
       commit_message: "[Draw] ${{ github.event.head_commit.message }}"
       keymap_patterns: "config/*.keymap"
-      config_path: "keymap-drawer/config.yaml"
+      config_path: "config/config.yml"
       output_folder: "keymap-drawer"
       parse_args: ""
       draw_args: "corneish:'--ghost-keys 20 24 25 29 30 35'"
