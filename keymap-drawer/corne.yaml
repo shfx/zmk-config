@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
 layers:
-  default:
+  Default:
   - Q
   - W
   - E
@@ -33,11 +33,11 @@ layers:
   - '?'
   - ESC
   - SPACE
-  - {t: TAB, h: symbols}
-  - {t: ENTER, h: Numbers}
+  - {t: TAB, h: Sym}
+  - {t: ENTER, h: Num}
   - BACKSPACE
-  - {t: DELETE, h: System}
-  symbols:
+  - {t: DELETE, h: Sys}
+  Sym:
   - '!'
   - '@'
   - '#'
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Numbers:
+  Num:
   - F10
   - F7
   - F8
@@ -111,7 +111,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  System:
+  Sys:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
