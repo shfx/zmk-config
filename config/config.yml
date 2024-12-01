@@ -9,102 +9,29 @@ draw_config:
     }
 
 parse_config:
-  raw_binding_map:
-    '&ext_power EP_TOG': "🔌"
-    "&caps_word": $$mdi:alpha-w-box$$
-    '&bootloader': "💾"
-    '&sys_reset': "🔄"
-    '&reset_td': "🔄"
-    '&dot_space_shift': ".⎵⇧"
-
-    "&ltsk MEDIA LSHIFT":
-      tap: SK(⇧)
-      hold: MEDIA
-    "&ltr NUM 0":
-      tap: $$mdi:repeat-variant$$
-      hold: $$mdi:numeric$$
-
-    "&ltsk NUM BSPC":
-      tap: $$mdi:backspace-outline$$
-      hold: $$mdi:numeric$$
-
-    "&lt MOUSE ESC":
-      tap: $$mdi:keyboard-esc$$
-      hold: $$mdi:mouse$$
-
-    "&lt NAV SPACE":
-      tap: $$mdi:keyboard-space$$
-      hold: $$mdi:navigation-variant-outline$$
-
-    "&lt FUN RET":
-      tap: $$mdi:keyboard-return$$
-      hold: $$mdi:function-variant$$
-
-    # Bluetooth
-    "&bt BT_SEL 0":
-      tap: $$mdi:bluetooth-connect$$
-      hold: 0
-    "&bt BT_SEL 1":
-      tap: $$mdi:bluetooth-connect$$
-      hold: 1
-    "&bt BT_SEL 2":
-      tap: $$mdi:bluetooth-connect$$
-      hold: 2
-    "&bt BT_SEL 3":
-      tap: $$mdi:bluetooth-connect$$
-      hold: 3
-    "&bt BT_SEL 4":
-      tap: $$mdi:bluetooth-connect$$
-      hold: 4
-    '&bt BT_NXT':
-      tap: $$mdi:bluetooth-connect$$
-      hold: $$mdi:chevron-right$$
-    '&bt BT_PRV':
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: $$mdi:chevron-left$$
-    '&bt BT_CLR':
-      tap: $$mdi:bluetooth-connect$$
-      hold: $$mdi:close-box-outline$$
-
-    # Empty
-    "&none":
-      tap: $$mdi:minus-circle-outline$$
-      type: none
-
-    "&out OUT_TOG":
-      shifted: $$mdi:usb$$
-      tap: $$mdi:toggle-switch$$
-      hold: $$mdi:bluetooth$$
-
-    "&thread_arrow":
-      tap: ->
-      shifted: =>
-    "&and":
-      tap: and
-
   zmk_keycode_map:
-    # custom mappings
     C_VOL_UP: Vol Up
     C_VOL_DN: Vol Down
     C_AL_CALC: Calc
-    C_PP: Play Pause
 
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LALT: Alt
-    RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
+    LEFT_CONTROL: "⌃"
+    RIGHT_CONTROL: "⌃"
+    LEFT_ALT: "⌥"
+    RIGHT_ALT: "⌥"
+    LEFT_COMMAND: "⌘"
+    RIGHT_COMMAND: "⌘"
+    LEFT_SHIFT: "⇧"
+    RIGHT_SHIFT: "⇧"
+
+    ENTER: "↵"
+
     ESC: Esc
-    SPACE: ␣
-    BSPC: ⌫
-    BACKSPACE: ⌫
-    RET: ⏎
-    TAB: ↹
-    DEL: ⌦
+    SPACE: "␣"
+    BSPC: "⌫"
+    BACKSPACE: "⌫"
+    RET: "⏎"
+    TAB: "↹"
+    DEL: "⌦"
 
     PG_UP: Page Up
     PG_DN: Page Down
@@ -120,8 +47,8 @@ parse_config:
     LEFT: ←
     RIGHT: →
 
-    C_PP: ⏯
     C_NEXT: ⏭️
+    C_PP: ⏯
     C_PREV: ⏮️
 
     # defaults
