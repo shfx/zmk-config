@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT COMMAND}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT SHIFT}
+  - {t: A, h: ⌘}
+  - {t: S, h: ⌥}
+  - {t: D, h: ⌃}
+  - {t: F, h: ⇧}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT COMMAND}
+  - {t: J, h: ⇧}
+  - {t: K, h: ⌃}
+  - {t: L, h: ⌥}
+  - {t: ;, h: ⌘}
   - Z
   - X
   - C
@@ -31,11 +31,11 @@ layers:
   - ','
   - .
   - '?'
-  - ESC
-  - SPACE
-  - {t: TAB, h: Sym}
-  - {t: ENTER, h: Num}
-  - BACKSPACE
+  - Esc
+  - ␣
+  - {t: ↹, h: Sym}
+  - {t: ↵, h: Num}
+  - ⌫
   - {t: DELETE, h: Sys}
   Sym:
   - '!'
@@ -48,16 +48,16 @@ layers:
   - '*'
   - _
   - '='
-  - {t: '~', h: LEFT COMMAND}
-  - {t: '`', h: LEFT ALT}
-  - {t: '%', h: LEFT CONTROL}
-  - {t: ^, h: LEFT SHIFT}
+  - {t: '~', h: ⌘}
+  - {t: '`', h: ⌥}
+  - {t: '%', h: ⌃}
+  - {t: ^, h: ⇧}
   - '{'
   - '}'
-  - {t: +, h: RIGHT SHIFT}
-  - {t: '-', h: RIGHT CONTROL}
-  - {t: '''', h: RIGHT ALT}
-  - {t: '"', h: RIGHT COMMAND}
+  - {t: +, h: ⇧}
+  - {t: '-', h: ⌃}
+  - {t: '''', h: ⌥}
+  - {t: '"', h: ⌘}
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -85,16 +85,16 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: F11, h: LEFT COMMAND}
-  - {t: F4, h: LEFT ALT}
-  - {t: F5, h: LEFT CONTROL}
-  - {t: F6, h: LEFT SHIFT}
+  - {t: F11, h: ⌘}
+  - {t: F4, h: ⌥}
+  - {t: F5, h: ⌃}
+  - {t: F6, h: ⇧}
   - F14
   - +
-  - {t: '4', h: RIGHT SHIFT}
-  - {t: '5', h: RIGHT CONTROL}
-  - {t: '6', h: RIGHT ALT}
-  - {t: '*', h: RIGHT COMMAND}
+  - {t: '4', h: ⇧}
+  - {t: '5', h: ⌃}
+  - {t: '6', h: ⌥}
+  - {t: '*', h: ⌘}
   - F12
   - F1
   - F2
