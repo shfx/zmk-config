@@ -16,7 +16,7 @@ jobs:
       contents: write # allow workflow to commit to the repo
     with:
       # Use the triggering commit's message, prepending the "[Draw]" tag
-      commit_message: "[Draw] ${{ github.event.head_commit.message }}"
+      amend_commit: true
       keymap_patterns: "config/*.keymap"
       config_path: "config/config.yml"
       output_folder: "keymap-drawer"
