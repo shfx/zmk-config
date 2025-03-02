@@ -9,9 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    chosen {
-        zmk,physical-layout = &foostan_corne_5col_layout;
-    };
+    chosen { zmk,physical-layout = &foostan_corne_5col_layout; };
 
     behaviors {
         hrl: hrl {
@@ -80,9 +78,9 @@
 
         System {
             bindings = <
-&bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &none    &none  &none  &none  &none  &bt BT_DISC 0  &bt BT_DISC 1
-&bt BT_DISC 3  &none         &none         &none  &none  &none    &none  &none  &none  &none  &none          &none
-&bt BT_CLR     &none         &none         &none  &none  &none    &none  &none  &none  &none  &none          &none
+&bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &studio_unlock  &none  &none    &none  &none  &none  &none  &bt BT_DISC 0  &bt BT_DISC 1
+&bt BT_DISC 3  &none         &none         &none           &none  &none    &none  &none  &none  &none  &none          &none
+&bt BT_CLR     &none         &none         &none           &none  &none    &none  &none  &none  &none  &none          &none
             >;
 
             label = "Sys";
