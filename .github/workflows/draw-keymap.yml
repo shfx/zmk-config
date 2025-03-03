@@ -21,4 +21,3 @@ jobs:
       config_path: "config/config.yml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: "corneish:'--ghost-keys 20 24 25 29 30 35'"
